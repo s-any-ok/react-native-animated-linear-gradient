@@ -1,10 +1,7 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { StyleSheet, StatusBar, Dimensions, View, Animated, Easing } from 'react-native';
+import { StyleSheet, Animated, Easing } from 'react-native';
 import NativeLinearGradient from 'react-native-linear-gradient';
 import rgb2hex from 'rgb2hex';
-
-// const {height, width} = Dimensions.get('window');
 
 class LinearGradient extends Component {
   render() {
@@ -17,7 +14,7 @@ class LinearGradient extends Component {
         colors={[color0, color1].map((c) => rgb2hex(c).hex)}
         start={gStart}
         end={gEnd}
-        style={[styles.linearGradient]}>
+        style={[styles.linearGradient, style]}>
         {children}
       </NativeLinearGradient>
     )

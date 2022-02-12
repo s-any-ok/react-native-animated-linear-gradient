@@ -1,6 +1,6 @@
 {
-  "name": "react-native-animated-linear-gradient",
-  "version": "1.2.2",
+  "name": "react-native-animated-linear-gradient-s-any-ok",
+  "version": "1.2.3",
   "description": "Animated linear gradient as background animation or other.",
   "main": "index.js",
   "scripts": {
