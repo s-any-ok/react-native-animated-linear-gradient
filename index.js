@@ -5,7 +5,7 @@ import rgb2hex from 'rgb2hex';
 
 class LinearGradient extends Component {
   render() {
-    const { color0, color1, children, points } = this.props;
+    const { color0, color1, children, points, style} = this.props;
     const gStart = points.start;
     const gEnd = points.end;
     return (
